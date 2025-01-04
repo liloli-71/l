@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, #3277b4 50%, #ebe7e2 80%);
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    pointer-events: auto;
+}
+
+.textnavbar {
+    pointer-events: auto;
+    cursor: pointer;
+    color: white;
+    font-family: Ubuntu;
+}
+
+.textnavbar>a {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.imgnavbar {
+    height: 130px;
+    width: auto;
+}
+
+.imgnavbar {
+    height: 130px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+.imgnavbar>img {
+    height: 100%;
+    width: auto;
+}
+
+.textnavbar {
+    font-weight: 600;
+    font-size: larger;
+}
+
+.textnavbar>a {
+    text-decoration: none;
+    color: white;
+}
+
+.textnavbar2 {
+    display: flex;
+    align-items: center;
+    font-family: Ubuntu;
+
+    font-weight: 500;
+
+    color: white;
+}
+
+.textnavbar2>p {
+    margin-right: 20px;
+}
+
+.buttonnavbar {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.buttonnavbar>button {
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonnavbara {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.tex {
+    background: linear-gradient(to right, #B98686 50%, #f1eee4 80%);
+    height: 160px;
+}
+
+.tex>p {
+    margin-top: 20px;
+    margin-left: 95px;
+    font-family: Ubuntu;
+    font-weight: 800;
+    font-size: 30px;
+    max-width: 460px;
+}
+
+.svedeniR {
+    margin-left: 95px;
+    font-family: Ubuntu;
+    font-weight: 200;
+    margin-top: 12px;
+}
+
+.fotercenter {
+    font-family: Ubuntu;
+    border-right: 1px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 1px solid grey;
+    border-radius: 3px;
+    height: 170px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 105px;
+    cursor: cell;
+}
+
+.fotercenter>p {
+    color: #3277b4;
+}
+
+.fotercenter:hover {
+    text-decoration: underline;
+    color: #3277b4;
+}
+
+.itservisimg {
+    height: 80px;
+}
+
+.fotercenter>p {
+    margin-left: 12px;
+}
+
+.fotercenter2 {
+    font-family: Ubuntu;
+    font-weight: 300;
+    font-size: small;
+    position: absolute;
+    margin-right: 750px;
+    top: 525px;
+    max-width: 500px;
+}
+
+.fotercenter3 {
+    font-family: Ubuntu;
+    border-right: 1px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 1px solid grey;
+    border-radius: 3px;
+    height: 170px;
+    width: 500px;
+    margin-top: 50px;
+    cursor: cell;
+}
+
+.foter-conteiner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.fotercenter3>img {
+    height: 60px;
+    padding-left: 19px;
+}
+
+.fotercenter3>p {
+    padding-left: 12px;
+    padding-top: 8px;
+    color: #3277b4;
+}
+
+.fotercenter31:hover {
+    text-decoration: underline;
+    color: #3277b4;
+}
+
+.fotercenter4 {
+    font-family: Ubuntu;
+    font-weight: 200;
+    max-width: 500px;
+    font-size: small;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.footer>p {
+    margin-top: 308px;
+    background: linear-gradient(to right, #3277b4 50%, #f1eee4 80%);
+    height: 50px;
+    text-align: center;
+    color: #f1eee4;
+    align-items: center;
+}

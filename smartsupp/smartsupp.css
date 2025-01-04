@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: linear-gradient(to right, #3277b4 50%, #ebe7e2 80%);
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    pointer-events: auto;
+}
+
+.textnavbar {
+    pointer-events: auto;
+    cursor: pointer;
+    color: white;
+    font-family: Ubuntu;
+}
+
+.textnavbar>a {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.imgnavbar {
+    height: 130px;
+    width: auto;
+}
+
+.imgnavbar {
+    height: 130px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+.imgnavbar>img {
+    height: 100%;
+    width: auto;
+
+}
+
+.textnavbar {
+    font-weight: 600;
+    font-size: larger;
+}
+
+.textnavbar>a {
+    text-decoration: none;
+    color: white;
+}
+
+.textnavbar2 {
+    display: flex;
+    align-items: center;
+    font-family: Ubuntu;
+
+    font-weight: 500;
+
+    color: white;
+}
+
+.textnavbar2>p {
+    margin-right: 20px;
+}
+
+.buttonnavbar {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.buttonnavbar>button {
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonnavbara {
+    text-decoration: none;
+    color: #000;
+}
+
